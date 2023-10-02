@@ -1,0 +1,45 @@
+a9c4dc6dfcdbcf82f23484ead8753c80
+
+token
+eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhOWM0ZGM2ZGZjZGJjZjgyZjIzNDg0ZWFkODc1M2M4MCIsInN1YiI6IjY1MTA0MTdmZTFmYWVkMDEzYTBiMGVmZCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.szMRrirSEyG8n15cd2sT5Ka8Xc2Gxi_qXCUUCHcSn-o
+
+
+search api : 
+
+https://api.themoviedb.org/3/search/movie?query=barber&api_key=a9c4dc6dfcdbcf82f23484ead8753c80
+
+
+
+Append to response : select : 
+
+https://api.themoviedb.org/3/movie/157336?api_key=a9c4dc6dfcdbcf82f23484ead8753c80
+https://api.themoviedb.org/3/movie/157336/videos?api_key=a9c4dc6dfcdbcf82f23484ead8753c80
+
+
+
+get movie list 
+https://api.themoviedb.org/3/genre/movie/list
+
+762430
+
+popular :
+https://api.themoviedb.org/3/movie/popular?api_key=a9c4dc6dfcdbcf82f23484ead8753c80
+
+upcoming ;
+/3/movie/upcoming
+
+now playing:
+/3/movie/now_playing
+
+top rated : 
+	/3/movie/top_rated
+
+
+    similar :
+    /3/movie/24580/similar	
+
+
+    latest :
+    /3/movie/latest
+
+    

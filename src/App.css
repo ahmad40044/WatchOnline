@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.box {
+  display: inline-block; /* This makes the boxes align horizontally */
+  padding: 5px; /* Adjust padding as needed */
+  margin: 5px; /* Adjust margin as needed */
+  border: 1px solid #ccc; /* You can set your desired border style */
+  border-radius: 5px; /* You can set your desired border radius */
+  background-color: #f0f0f0; /* You can set your desired background color */
+  
+}
