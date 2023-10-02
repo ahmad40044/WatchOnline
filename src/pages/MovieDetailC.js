@@ -54,8 +54,8 @@ export const MovieDetailC = () => {
                 <p className="text-gray-700 text-xl mb-4 dark:text-white">{movie.overview}</p>
                 <p className="text-gray-700 mb-4 dark:text-white">Release Date: {movie.release_date}</p>
                 <div className="text-gray-700 mb-4 dark:text-white">
-                  Genres: {movie.genres.map((genre) => (
-                    <div className="box dark:bg-blue-500">
+                  Genres: {movie.genres.map((genre,index) => (
+                    <div key={index} className="box dark:bg-blue-500">
                       {genre.name}
                       </div>
                   
