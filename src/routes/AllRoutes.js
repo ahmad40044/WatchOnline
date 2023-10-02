@@ -10,7 +10,7 @@ export const AllRoutes = () => {
   
   const [useSearch] = useSearchParams();
 const searchQuery= useSearch.get("q");
-const defaultQuery = "search/movie?query=Jack+Reacher&"
+// const defaultQuery = "search/movie?query=Jack+Reacher&"
 
   return (
     <div className="dark:bg-slate-800">

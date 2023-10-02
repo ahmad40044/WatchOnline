@@ -13,7 +13,7 @@ useEffect(()=> {
       setData(json.results)
     }
     fetchmovies();
-    },[apiPath])
+    },[url])
 
   return ({data})
 }

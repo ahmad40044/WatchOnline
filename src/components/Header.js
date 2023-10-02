@@ -1,10 +1,10 @@
-import { act } from "@testing-library/react"
+
 import logo from "../images/logo512.png"
-import {Link, NavLink, useNavigate, json} from "react-router-dom"
+import {Link, NavLink, useNavigate} from "react-router-dom"
 import { useEffect, useState } from "react"
 import sun from "../images/sun.png"
 import moon from "../images/moon.png"
-import { Search } from "../pages/Search"
+// import { Search } from "../pages/Search"
 
 
 export const Header = () => {
@@ -51,7 +51,7 @@ const inActiveClass ="text-base block py-2 pl-3 pr-4 text-gray-900 rounded hover
   </Link>
   <div id="mobile-nav" className="flex md:order-2">
      <button onClick={()=> setDarkMode(!darkMode)} className="mx-2 text-base block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" >
-      {darkMode ? (<img src={sun} className={`w-7 h-7 ${inActiveClass}`}></img>):(  <img src={moon}  className={`w-7 h-7 ${inActiveClass}`}></img> )}
+      {darkMode ? (<img src={sun} className={`w-7 h-7 ${inActiveClass}`} alt="sun"></img>):(  <img src={moon}  className={`w-7 h-7 ${inActiveClass}`} alt="moon"></img> )}
       </button>
 
 

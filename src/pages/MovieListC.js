@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
+import React, { useEffect } from 'react'
+// import { Link } from 'react-router-dom'
 import { Card } from '../components/Card'
 import useFetch from '../hooks/useFetch';
 
@@ -11,7 +11,7 @@ useEffect(()=>{
 document.title=title;
 
 
-},[apiPath])
+},[apiPath,title])
 return (
   <main >
     <section className='mx-w--7xl mx-auto py-7 '>

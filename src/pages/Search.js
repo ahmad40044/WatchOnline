@@ -1,7 +1,7 @@
 import { useSearchParams } from "react-router-dom"
 import { Card } from "../components/Card"
 import useFetch from "../hooks/useFetch"
-import userEvent from "@testing-library/user-event";
+
 import { useEffect } from "react";
 
 
@@ -11,7 +11,7 @@ export const Search = ({apiPath}) => {
 
   const [useSearch] = useSearchParams();
   const searchQuery= useSearch.get("q");
-  const defaultQuery = "search/movie?query=Jack+Reacher&"
+  // const defaultQuery = "search/movie?query=Jack+Reacher&"
 
 
 
